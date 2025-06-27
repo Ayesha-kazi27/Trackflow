@@ -153,6 +153,9 @@ export const SignUp: React.FC<SignUpProps> = ({ onToggleMode }) => {
                 Sign in
               </button>
             </p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-4">
+              Please check your email and confirm the account verification, then return to the site and login.
+            </p>
           </div>
         </Card>
       </div>
